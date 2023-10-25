@@ -1,2 +1,14 @@
 
-canvas {background-color: lightgray;}
+body, html {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;  
+}
+
+#canvas-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+}
+  
